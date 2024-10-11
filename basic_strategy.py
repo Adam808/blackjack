@@ -65,7 +65,6 @@ def play_hand():
             print('hit')
 
     # pairs
-
     elif hand[0] == 'aa':
         print('split')
     elif hand[0] == 'tt':
