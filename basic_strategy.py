@@ -7,7 +7,7 @@ def play_hand():
         hand = hand.split()
 
         # hard totals
-        if hand[0] == '17':
+        if hand[0] == '17' or hand[0] == '18' or hand[0] == '19' or hand[0] == '20':
             print('stand')
         elif hand[0] == '11':
             print('double')
