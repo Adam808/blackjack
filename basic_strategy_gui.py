@@ -92,7 +92,7 @@ def play_hand():
     # hard totals
     if hand.get() == '11':
         action.set('double')
-    elif hand.get() in hard_totals[4:-1]:
+    elif hand.get() in hard_totals[4:]:
         if dealer.get() in dealer_card[:5]:
             action.set('stand')
         else:
