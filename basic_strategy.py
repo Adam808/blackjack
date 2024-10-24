@@ -13,7 +13,7 @@ def play_hand():
             print('double')
         elif hand[0] =='8':
             print('hit')
-        elif hand[0] in hard_totals[5:-1]:
+        elif hand[0] in hard_totals[5:]:
             if hand[1] in dealer_card[:5]:
                 print('stand')
             else:
