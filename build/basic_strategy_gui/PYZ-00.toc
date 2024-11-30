@@ -1,4 +1,4 @@
-('C:\\Users\\Adam\\Desktop\\blackjack\\build\\basic_strategy_gui\\PYZ-00.pyz',
+('C:\\Users\\Adam\\Desktop\\Programs\\blackjack\\build\\basic_strategy_gui\\PYZ-00.pyz',
  [('_compat_pickle',
    'C:\\Users\\Adam\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_compat_pickle.py',
    'PYMODULE'),
