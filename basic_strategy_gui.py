@@ -133,12 +133,12 @@ def play_hand():
             action.set('double')
         else:
             action.set('hit')
-    elif hand.get() == 'a5' or hand == 'a4':
+    elif hand.get() == 'a5' or hand.get() == 'a4':
         if dealer.get() in dealer_card[2:5]:
             action.set('double')
         else:
             action.set('hit')
-    elif hand.get() == 'a3' or hand == 'a2':
+    elif hand.get() == 'a3' or hand.get() == 'a2':
         if dealer.get() in dealer_card[3:5]:
             action.set('double')
         else:
@@ -173,7 +173,7 @@ def play_hand():
             action.set('split')
         else:
             action.set("don't split")
-    elif hand.get() == '33' or hand == '22':
+    elif hand.get() == '33' or hand.get() == '22':
         if dealer.get() in dealer_card[:6]:
             action.set('split')
         else:
